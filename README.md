@@ -137,8 +137,45 @@ Dart SDK 2.17+
    git clone https://github.com/youssefabdelrauf/Morphing-app
    ```
 2. Install Python Dependencies
-  ```bash
+   ```bash
    pip install fastapi uvicorn pydantic opencv-python numpy pillow tensorflow
    # Or if you have requirements.txt:
    pip install -r requirements.txt
+   ```
+3. Set Up Flutter Environment
+   ```bash
+   cd task5_face_app
+   flutter pub get
+   flutter doctor  # Verify installation
+   ```
+4. Configure Backend Server
+   ```bash
+   # Navigate to backend directory
+     cd backend
+
+   # Windows
+     run_backend.bat
+
+   # Linux/macOS
+     uvicorn main:app --reload --host 0.0.0.0 --port 8000
+  ```
+5. Run Tests
+   ```bash
+   python test_mp.py
+   python verify_backend.py
+   ```
+6. Launch Mobile Application
+   ```bash
+   cd task5_face_app
+
+   # Run on connected device
+   flutter run
+
+   # Or build for specific platform:
+   flutter build apk              # Android APK
+   flutter build ios              # iOS
+   flutter build windows          # Windows desktop
+   flutter build macos            # macOS desktop
+   flutter build linux            # Linux desktop
+   flutter build web              # Web application
    ```
