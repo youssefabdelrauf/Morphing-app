@@ -15,7 +15,7 @@ This mobile application provides real-time face morphing capabilities through th
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Technology Stack](#technology-stack)
-- [Installation](#-installation)
+- [Installation](#installation)
 - [Module Overview](#-module-overview)
 - [Usage Guide](#-usage-guide)
 - [Demo Videos](#-demo-videos)
@@ -45,7 +45,6 @@ Each category contains 4 unique morphing options:
 2. **Celebrities** - Morph into famous personalities from entertainment and sports
 3. **Historical Figures** - Blend features with influential figures from different eras
 4. **Human Races** - Explore facial features representing different ethnic backgrounds
-5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
 
 <p align="center">
   <img src="assets/animals.jpeg" width="250" />
@@ -55,6 +54,12 @@ Each category contains 4 unique morphing options:
   <img src="assets/races.jpeg" width="250" />
 </p>
 
+5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
+
+<p align="center">
+  <img src="assets/maleaddons.jpeg" width="300" />
+  <img src="assets/femaleaddons.jpeg" width="300" />
+</p>
 ---
 ## System Architecture
 
