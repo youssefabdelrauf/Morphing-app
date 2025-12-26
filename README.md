@@ -14,6 +14,7 @@ This mobile application provides real-time face morphing capabilities through th
 
 - [Features](#features)
 - [System Architecture](#system-architecture)
+- [Technology Stack](#technology-stack)
 - [Installation](#-installation)
 - [Module Overview](#-module-overview)
 - [Usage Guide](#-usage-guide)
