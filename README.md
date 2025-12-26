@@ -194,6 +194,7 @@ Dart SDK 2.17+
    ```
 ---
 
-## Demo video 
+## Demo Video
+Below is a short demonstration of the real-time face morphing feature.
 
-![ApplicationOverview](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/demo.mp4)
+https://github.com/user-attachments/assets/bb97495e-cdf9-4da6-96b6-837272239f76
