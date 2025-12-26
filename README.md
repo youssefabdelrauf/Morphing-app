@@ -96,8 +96,6 @@ Morphing-app/
 
 ## Technology Stack
 
-## 🛠️ Technology Stack
-
 | Component | Technology | Purpose |
 |---------|------------|---------|
 | **Mobile Framework** | Flutter 3.0+ | Cross-platform app (Android, iOS, Desktop, Web) |
