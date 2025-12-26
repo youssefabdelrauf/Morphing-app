@@ -113,7 +113,7 @@ Morphing-app/
 
 ---
 ## Installation
-### Prerequisites
+**Prerequisites**
 
 ```bash
 # Python Version
@@ -130,4 +130,15 @@ Dart SDK 2.17+
 - Storage: 500MB available space
 - Internet: Required for initial setup and authentication
 ```
-###
+**Setup Instructions**
+
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/youssefabdelrauf/Morphing-app
+   ```
+2. Install Python Dependencies
+  ```bash
+   pip install fastapi uvicorn pydantic opencv-python numpy pillow tensorflow
+   # Or if you have requirements.txt:
+   pip install -r requirements.txt
+   ```
