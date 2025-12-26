@@ -16,9 +16,7 @@ This mobile application provides real-time face morphing capabilities through th
 - [System Architecture](#system-architecture)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
-- [Module Overview](#-module-overview)
-- [Usage Guide](#-usage-guide)
-- [Demo Videos](#-demo-videos)
+- [Demo Videos](#demo-videos)
 - [Technical Documentation](#-technical-documentation)
 - [Development Team](#-development-team)
 - [License](#-license)
@@ -194,3 +192,6 @@ Dart SDK 2.17+
    flutter build linux            # Linux desktop
    flutter build web              # Web application
    ```
+---
+
+##
