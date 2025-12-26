@@ -60,6 +60,7 @@ Each category contains 4 unique morphing options:
   <img src="assets/maleaddons.jpeg" width="300" />
   <img src="assets/femaleaddons.jpeg" width="300" />
 </p>
+
 ---
 ## System Architecture
 
