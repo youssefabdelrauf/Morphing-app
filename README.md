@@ -208,7 +208,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 ---
 ## Troubleshooting
 
-### Camera not detected
+### ❌ Camera not detected
 ```
 **Possible solutions:**
 1. Check camera permissions in the device settings.
@@ -217,7 +217,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 4. Try switching between front and rear cameras.
 ```
 
-### Backend connection failed
+### ❌ Backend connection failed
 ```
 **Possible solutions:**
 1. Ensure the backend server is running:
@@ -232,7 +232,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 5. Review backend logs for error messages (FastAPI logs appear in the terminal).
 6. Ensure all required Python dependencies are installed:pip install fastapi uvicorn pydantic opencv-python numpy
 ```
-### Morphing is laggy or slow
+### ❌ Morphing is laggy or slow
 ```
 **Possible solutions:**
 1. Close other running applications.
@@ -241,7 +241,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 4. Ensure the device meets the minimum system requirements.
 5. Clear the application cache and restart.
 ```
-### Gender detection is incorrect
+### ❌ Gender detection is incorrect
 ```
 **Possible solutions:**
 1. Ensure the face is well-lit and clearly visible.
@@ -249,7 +249,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 3. Face the camera directly and avoid extreme angles.
 4. Manually override gender detection in the settings if available.
 ```
-### Video recording not saving
+### ❌ Video recording not saving
 ```
 **Possible solutions:**
 1. Verify that storage permissions are granted.
@@ -257,7 +257,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 3. Check that the SD card is mounted (Android devices).
 4. Try recording shorter clips.
 ```
-### Mouth detection not working for audio triggers
+### ❌ Mouth detection not working for audio triggers
 ```
 **Possible solutions:**
 1. Ensure adequate lighting conditions.
@@ -267,7 +267,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 5. Verify that the selected filter supports audio features.
 6. Check backend logs for mouth detection errors.
 ```
-### Sounds not playing with filters
+### ❌ Sounds not playing with filters
 ```
 **Possible solutions:**
 1. Ensure microphone permission is granted (required for mouth detection).
