@@ -48,11 +48,11 @@ Each category contains 4 unique morphing options:
 5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
 
 <p align="center">
-  <img src="assets/Musculoskeletal.jpeg" width="250" />
-  <img src="assets/heart.jpeg" width="250" />
+  <img src="assets/animals.jpeg" width="250" />
+  <img src="assets/celebrities.jpeg" width="250" />
   <br>
-  <img src="assets/brain.jpeg" width="250" />
-  <img src="assets/teeth.jpeg" width="250" />
+  <img src="assets/historical.jpeg" width="250" />
+  <img src="assets/races.jpeg" width="250" />
 </p>
 
 ---
