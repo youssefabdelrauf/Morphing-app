@@ -24,6 +24,7 @@ This mobile application provides real-time face morphing capabilities through th
 
 ---
 ## Features
+
 ### core capabilities 
 - **Multi-Platform Support**: Runs on Android, iOS, Windows, macOS, Linux, and Web
 - **User Authentication**: Sign in with email and password
@@ -32,5 +33,15 @@ This mobile application provides real-time face morphing capabilities through th
 - **AI Gender Detection**: Automatically detects user gender to display appropriate morphing options
 - **Morphing Slider**: Smooth transition control between original face (0%) and full morph (100%)
 - **Video Recording**: Capture and export morphing sessions as high-quality video files
+- **Interactive Audio**: Mouth-triggered sound effects for select filters (plays when mouth opens, stops when closed)
 - **Instant Preview**: See transformations in real-time with zero lag
 - **Export Options**: Save recordings to device gallery with one tap
+
+###  Five Specialized Categories 
+Each category contains 4 unique morphing options:
+
+1. **Animals** - Transform with animal characteristics
+2. **Celebrities** - Morph into famous personalities from entertainment and sports
+3. **Historical Figures** - Blend features with influential figures from different eras
+4. **Human Races** - Explore facial features representing different ethnic backgrounds
+5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
