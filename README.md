@@ -17,9 +17,8 @@ This mobile application provides real-time face morphing capabilities through th
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
 - [Demo Video](#demo-video)
-- [Technical Documentation](#-technical-documentation)
-- [Development Team](#-development-team)
-- [License](#-license)
+- [Troubleshooting](#troubleshooting])
+- [Development Team](#development-team)
 
 ---
 ## Features
@@ -195,7 +194,8 @@ Dart SDK 2.17+
 ---
 
 ## Demo Video
-Below is a short demonstration of the real-time face morphing feature.
+This video showcases the system workflow, including camera input processing, AI-based gender detection, and real-time face morphing with interactive controls.
+
 
 
 
@@ -203,3 +203,103 @@ Below is a short demonstration of the real-time face morphing feature.
 https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 
 
+
+
+---
+## Troubleshooting
+
+### Camera not detected
+```
+**Possible solutions:**
+1. Check camera permissions in the device settings.
+2. Restart the application.
+3. Verify that the camera hardware is functioning correctly.
+4. Try switching between front and rear cameras.
+```
+
+### Backend connection failed
+```
+**Possible solutions:**
+1. Ensure the backend server is running:
+   - **Windows:** `run_backend.bat`
+   - **Linux/macOS:**
+     ```
+     uvicorn main:app --reload
+     ```
+2. Confirm the backend is accessible at:http://localhost:8000/
+3. Verify that CORS settings allow requests from the application.
+4. Check firewall settings to ensure local connections are permitted.
+5. Review backend logs for error messages (FastAPI logs appear in the terminal).
+6. Ensure all required Python dependencies are installed:pip install fastapi uvicorn pydantic opencv-python numpy
+```
+### Morphing is laggy or slow
+```
+**Possible solutions:**
+1. Close other running applications.
+2. Reduce video resolution in the application settings.
+3. Lower morphing quality to **Medium**.
+4. Ensure the device meets the minimum system requirements.
+5. Clear the application cache and restart.
+```
+### Gender detection is incorrect
+```
+**Possible solutions:**
+1. Ensure the face is well-lit and clearly visible.
+2. Remove accessories that may obscure facial features.
+3. Face the camera directly and avoid extreme angles.
+4. Manually override gender detection in the settings if available.
+```
+### Video recording not saving
+```
+**Possible solutions:**
+1. Verify that storage permissions are granted.
+2. Ensure sufficient storage space is available.
+3. Check that the SD card is mounted (Android devices).
+4. Try recording shorter clips.
+```
+### Mouth detection not working for audio triggers
+```
+**Possible solutions:**
+1. Ensure adequate lighting conditions.
+2. Face the camera directly without obstructions.
+3. Make clear mouth opening and closing movements.
+4. Confirm that microphone permission is granted.
+5. Verify that the selected filter supports audio features.
+6. Check backend logs for mouth detection errors.
+```
+### Sounds not playing with filters
+```
+**Possible solutions:**
+1. Ensure microphone permission is granted (required for mouth detection).
+2. Check that device volume is not muted or too low.
+3. Verify the backend server is serving sound files from the `/sounds` endpoint.
+4. Ensure the `UI/assets` directory contains the required sound files.
+5. Test with different filters, as not all filters include audio.
+6. Ensure mouth movements are clearly visible to the camera.
+7. Review backend logs for audio file loading errors.
+```
+---
+## Development Team
+
+### **Maryam Moustafa**
+-  Email: maryam23shabaan@gmail.com
+-  [GitHub](https://github.com/maryam305)
+-  [LinkedIn](https://www.linkedin.com/in/maryam-moustafa-653257378)
+
+
+### **Aya Sayed**
+-  Email: aya.sayed14827@gmail.com
+-  [GitHub](https://github.com/14930)
+-  [LinkedIn](https://www.linkedin.com/in/aya-sayed-bb6a80397?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
+### **Yousef Mahmoud**
+-  Email: youssef.abdelrauf23@gmail.com
+-  [GitHub](https://github.com/youssefabdelrauf)
+-  [LinkedIn](https://www.linkedin.com/in/youssef-mahmoud-abdelrauf-1905b8370)
+
+### **Rahma Ashraf**
+-  Email: ashrafrahma402@gmail.com
+-  [GitHub](https://github.com/rahmashraf)
+-  [LinkedIn](https://eg.linkedin.com/in/rahma-ashraf-717012373)
+
+---
