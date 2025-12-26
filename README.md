@@ -45,3 +45,37 @@ Each category contains 4 unique morphing options:
 3. **Historical Figures** - Blend features with influential figures from different eras
 4. **Human Races** - Explore facial features representing different ethnic backgrounds
 5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
+
+## System Architecture
+,,,
+
+Morphing-app/
+├── 📄 .gitignore                # Git ignore configuration
+├── 📝 README.md                 # Project documentation
+├── 🗂️ .vscode/                  # VS Code workspace settings
+├── 🎨 UI/                       # User interface assets
+│   └── assets/                  # Images, sounds, icons
+├── ⚙️ backend/                  # FastAPI backend server
+│   ├── main.py                  # FastAPI application & routes
+│   ├── face_service.py          # Core morphing logic
+│   └── [Model files & utilities]
+├── 📱 task5_face_app/           # Flutter mobile application
+│   ├── android/                 # Android build configuration
+│   ├── ios/                     # iOS build configuration
+│   ├── linux/                   # Linux desktop support
+│   ├── macos/                   # macOS desktop support
+│   ├── windows/                 # Windows desktop support
+│   ├── web/                     # Web platform support
+│   ├── lib/                     # Dart source code
+│   ├── test/                    # Unit & widget tests
+│   ├── pubspec.yaml             # Flutter dependencies
+│   ├── pubspec.lock             # Locked dependency versions
+│   └── analysis_options.yaml   # Dart analyzer configuration
+├── 🤖 task_5_ai_gender/         # AI gender detection module
+│   └── [ML models & inference scripts]
+├── 🧪 test_mp.py                # Multiprocessing test suite
+├── 🔍 verify_backend.py         # Backend verification script
+├── ▶️ run_backend.bat           # Backend startup script (Windows)
+└── 📊 info.jpg                  # Project information graphic
+
+,,,
