@@ -2,6 +2,7 @@
   
 # MORPHY - Face Morphing Mobile App 
 A real-time face morphing application that allows users to transform their appearance using advanced image processing and facial manipulation technology.
+![login](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/login.jpeg)
 ![ApplicationOverview](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/main.jpeg)
 </p></div>
 
@@ -28,7 +29,6 @@ This mobile application provides real-time face morphing capabilities through th
 ### core capabilities 
 - **Multi-Platform Support**: Runs on Android, iOS, Windows, macOS, Linux, and Web
 - **User Authentication**: Sign in with email and username
- ![login](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/login.jpeg)
 - **Theme Customization**: Multiple theme options for personalized experience
 - **Real-Time Processing**: Live face morphing directly from camera feed at 30+ FPS
 - **AI Gender Detection**: Automatically detects user gender to display appropriate morphing options
