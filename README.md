@@ -93,3 +93,21 @@ Morphing-app/
 └──  info.jpg                      # Project overview / demo image
 
 ```
+
+## Technology Stack
+
+## 🛠️ Technology Stack
+
+| Component | Technology | Purpose |
+|---------|------------|---------|
+| **Mobile Framework** | Flutter 3.0+ | Cross-platform app (Android, iOS, Desktop, Web) |
+| **Frontend Language** | Dart 2.17+ | Flutter application development |
+| **Backend Framework** | FastAPI (Python) | RESTful API server for face processing |
+| **Web Server** | Uvicorn / ASGI | High-performance asynchronous server |
+| **Authentication** | Email / Password | User account management |
+| **UI Theming** | Flutter Themes | Customizable application appearance |
+| **AI** / **ML** | TensorFlow, PyTorch | Gender detection and AI-based models |
+| **Image Processing** | OpenCV, NumPy, Pillow | Facial landmark detection and manipulation |
+| **Data Validation** | Pydantic | Request and response schema validation |
+| **Video Processing** | OpenCV (cv2) | Video recording and encoding |
+| **Build System** | C++ / CMake | Native module compilation |
