@@ -27,7 +27,7 @@ This mobile application provides real-time face morphing capabilities through th
 
 ### core capabilities 
 - **Multi-Platform Support**: Runs on Android, iOS, Windows, macOS, Linux, and Web
-- **User Authentication**: Sign in with email and password
+- **User Authentication**: Sign in with email and username
  ![login](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/login.jpeg)
 - **Theme Customization**: Multiple theme options for personalized experience
 - **Real-Time Processing**: Live face morphing directly from camera feed at 30+ FPS
