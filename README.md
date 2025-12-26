@@ -46,7 +46,7 @@ Each category contains 4 unique morphing options:
 3. **Historical Figures** - Blend features with influential figures from different eras
 4. **Human Races** - Explore facial features representing different ethnic backgrounds
 5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
-
+---
 ## System Architecture
 
 ```
@@ -94,7 +94,7 @@ Morphing-app/
 └──  info.jpg                      # Project overview / demo image
 
 ```
-
+---
 ## Technology Stack
 
 | Component | Technology | Purpose |
@@ -110,3 +110,23 @@ Morphing-app/
 | **Data Validation** | Pydantic | Request and response schema validation |
 | **Video Processing** | OpenCV (cv2) | Video recording and encoding |
 | **Build System** | C++ / CMake | Native module compilation |
+
+---
+## Installation
+### Prerequisites
+
+```bash
+# Python Version
+Python 3.8 or higher
+
+# Flutter SDK
+Flutter 3.0+
+Dart SDK 2.17+
+
+# System Requirements
+- OS: Android 8.0+ / iOS 12.0+ / Windows 10+ / macOS 10.15+ / Linux (Ubuntu 20.04+)
+- RAM: 4GB minimum, 6GB recommended
+- Camera: Front-facing camera with 720p resolution minimum
+- Storage: 500MB available space
+- Internet: Required for initial setup and authentication
+```
