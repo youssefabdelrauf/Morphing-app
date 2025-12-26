@@ -16,7 +16,7 @@ This mobile application provides real-time face morphing capabilities through th
 - [System Architecture](#system-architecture)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
-- [Demo Videos](#demo-videos)
+- [Demo Video](#demo-video)
 - [Technical Documentation](#-technical-documentation)
 - [Development Team](#-development-team)
 - [License](#-license)
@@ -194,4 +194,6 @@ Dart SDK 2.17+
    ```
 ---
 
-##
+## Demo video 
+
+![ApplicationOverview](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/demo.mp4)
