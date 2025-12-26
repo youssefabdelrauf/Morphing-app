@@ -46,6 +46,15 @@ Each category contains 4 unique morphing options:
 3. **Historical Figures** - Blend features with influential figures from different eras
 4. **Human Races** - Explore facial features representing different ethnic backgrounds
 5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
+
+<p align="center">
+  <img src="assets/Musculoskeletal.jpeg" width="250" />
+  <img src="assets/heart.jpeg" width="250" />
+  <br>
+  <img src="assets/brain.jpeg" width="250" />
+  <img src="assets/teeth.jpeg" width="250" />
+</p>
+
 ---
 ## System Architecture
 
