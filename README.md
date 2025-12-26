@@ -25,12 +25,12 @@ This mobile application provides real-time face morphing capabilities through th
 ---
 ## Features
 ### core capabilities 
--**Multi-Platform Support**: Runs on Android, iOS, Windows, macOS, Linux, and Web
--**User Authentication**: Sign in with email and password
--**Theme Customization**: Multiple theme options for personalized experience
--**Real-Time Processing**: Live face morphing directly from camera feed at 30+ FPS
--**AI Gender Detection**: Automatically detects user gender to display appropriate morphing options
--**Morphing Slider**: Smooth transition control between original face (0%) and full morph (100%)
--**Video Recording**: Capture and export morphing sessions as high-quality video files
--**Instant Preview**: See transformations in real-time with zero lag
--**Export Options**: Save recordings to device gallery with one tap
+- **Multi-Platform Support**: Runs on Android, iOS, Windows, macOS, Linux, and Web
+- **User Authentication**: Sign in with email and password
+- **Theme Customization**: Multiple theme options for personalized experience
+- **Real-Time Processing**: Live face morphing directly from camera feed at 30+ FPS
+- **AI Gender Detection**: Automatically detects user gender to display appropriate morphing options
+- **Morphing Slider**: Smooth transition control between original face (0%) and full morph (100%)
+- **Video Recording**: Capture and export morphing sessions as high-quality video files
+- **Instant Preview**: See transformations in real-time with zero lag
+- **Export Options**: Save recordings to device gallery with one tap
