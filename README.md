@@ -47,8 +47,8 @@ Each category contains 4 unique morphing options:
 5. **Add-ons** - Apply virtual accessories and enhancements according to your gender
 
 ## System Architecture
-,,,
 
+```
 Morphing-app/
 ├── 📄 .gitignore                # Git ignore configuration
 ├── 📝 README.md                 # Project documentation
@@ -78,4 +78,4 @@ Morphing-app/
 ├── ▶️ run_backend.bat           # Backend startup script (Windows)
 └── 📊 info.jpg                  # Project information graphic
 
-,,,
+```
