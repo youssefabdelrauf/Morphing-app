@@ -50,32 +50,46 @@ Each category contains 4 unique morphing options:
 
 ```
 Morphing-app/
-├── 📄 .gitignore                # Git ignore configuration
-├── 📝 README.md                 # Project documentation
-├── 🗂️ .vscode/                  # VS Code workspace settings
-├── 🎨 UI/                       # User interface assets
-│   └── assets/                  # Images, sounds, icons
-├── ⚙️ backend/                  # FastAPI backend server
-│   ├── main.py                  # FastAPI application & routes
-│   ├── face_service.py          # Core morphing logic
-│   └── [Model files & utilities]
-├── 📱 task5_face_app/           # Flutter mobile application
-│   ├── android/                 # Android build configuration
-│   ├── ios/                     # iOS build configuration
-│   ├── linux/                   # Linux desktop support
-│   ├── macos/                   # macOS desktop support
-│   ├── windows/                 # Windows desktop support
-│   ├── web/                     # Web platform support
-│   ├── lib/                     # Dart source code
-│   ├── test/                    # Unit & widget tests
-│   ├── pubspec.yaml             # Flutter dependencies
-│   ├── pubspec.lock             # Locked dependency versions
-│   └── analysis_options.yaml   # Dart analyzer configuration
-├── 🤖 task_5_ai_gender/         # AI gender detection module
-│   └── [ML models & inference scripts]
-├── 🧪 test_mp.py                # Multiprocessing test suite
-├── 🔍 verify_backend.py         # Backend verification script
-├── ▶️ run_backend.bat           # Backend startup script (Windows)
-└── 📊 info.jpg                  # Project information graphic
+├──  .gitignore                   # Git ignore rules
+├──  README.md                    # Main project documentation
+├──  .vscode/                     # VS Code workspace settings
+│   └── settings.json
+│
+├──  UI/                          # UI-related Python experiments & assets
+│   ├── Face.py                   # Face processing / UI-side testing script
+│   └── assets/                   # Images, icons, and UI resources
+│
+├──  backend/                     # FastAPI backend server
+│   ├── main.py                   # FastAPI app entry point & API routes
+│   ├── face_service.py           # Core face morphing logic
+│   ├── requirements.txt          # Backend Python dependencies
+│   ├── output.avi                # Sample recorded morphing output
+│   └── __pycache__/              # Python cache files
+│
+├──  task5_face_app/              # Flutter application (multi-platform)
+│   ├── android/                  # Android platform configuration
+│   ├── ios/                      # iOS platform configuration
+│   ├── linux/                    # Linux desktop support
+│   ├── macos/                    # macOS desktop support
+│   ├── windows/                  # Windows desktop support
+│   ├── web/                      # Web platform support
+│   ├── lib/                      # Dart source code (UI & app logic)
+│   ├── test/                     # Flutter unit & widget tests
+│   ├── pubspec.yaml              # Flutter dependencies
+│   ├── pubspec.lock              # Locked dependency versions
+│   └── analysis_options.yaml     # Dart analyzer configuration
+│
+├──  task5_ai_gender/             # AI gender detection module
+│   ├── AgeGenderDeepLearning-master/ # Reference deep learning implementation
+│   ├── deploy.prototxt           # Model architecture definition
+│   ├── gender_net.caffemodel     # Pre-trained gender classification model
+│   ├── gender_model.keras        # Keras-based gender model
+│   ├── realtime_test.py          # Real-time gender detection test
+│   └── train_gender.py           # Gender model training script
+│
+├──  test_mp.py                    # MediaPipe / multiprocessing test script
+├──  verify_backend.py             # Backend verification & testing script
+├──  run_backend.bat               # Windows batch script to start backend
+└──  info.jpg                      # Project overview / demo image
 
 ```
