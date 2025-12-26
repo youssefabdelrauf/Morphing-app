@@ -2,7 +2,6 @@
   
 # MORPHY - Face Morphing Mobile App 
 A real-time face morphing application that allows users to transform their appearance using advanced image processing and facial manipulation technology.
-![login](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/login.jpeg)
 ![ApplicationOverview](https://github.com/youssefabdelrauf/Morphing-app/blob/main/assets/main.jpeg)
 </p></div>
 
