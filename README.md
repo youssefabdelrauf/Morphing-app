@@ -292,7 +292,7 @@ https://github.com/user-attachments/assets/8449ec72-7148-4d63-badf-4ef478603fdf
 -  [GitHub](https://github.com/14930)
 -  [LinkedIn](https://www.linkedin.com/in/aya-sayed-bb6a80397?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
-### **Yousef Mahmoud**
+### **Youssef Mahmoud**
 -  Email: youssef.abdelrauf23@gmail.com
 -  [GitHub](https://github.com/youssefabdelrauf)
 -  [LinkedIn](https://www.linkedin.com/in/youssef-mahmoud-abdelrauf-1905b8370)
